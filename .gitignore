@@ -1,0 +1,61 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build Files
+bin/
+build/
+
+# Ignore macOS .DS_Store
+.DS_Store
+
+.vscode/setting.json
+.vscode/c_cpp_properties.json
+
+# Assets that are part of the asset pack and should not be stored in the repo
+engine/asset/data/models/**
+engine/asset/data/textures/**
+engine/asset/data/README_asset_pack.md
+engine/asset/data/font*.*
+engine/asset/data/roboto*.*
+
+# Downloadable assets
+vulkan_asset_pack_gltf.*
+engine/asset/data/textures/hdr/*.*
+engine/asset/data/readme.txt
+engine/asset/data/models/cerberus/*.*
+!engine/asset/data/textures/hdr/README.md
+
+# Don't ignore 3d models in obj format
+!engine/asset/data/models/*.obj
+!engine/asset/data/models/lowpoly/*.obj
+!engine/asset/data/models/voyager/*.obj

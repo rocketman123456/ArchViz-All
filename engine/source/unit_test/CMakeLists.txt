@@ -1,0 +1,8 @@
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/log_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/vfs_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/window_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/shader_compile_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/vulkan_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/gltf_test.cmake)
+include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/memory_test.cmake)
+# include(${ARCHVIZ_ROOT_DIR}/cmake/unit_test/x9_test.cmake)
